@@ -1,0 +1,36 @@
+.red-box{
+  width:550px;
+  height:400px;
+  background-color: red;
+  position: absolute;
+  left: 2px;
+  transition: 1s;
+
+}
+.green-box{
+  width:400px;
+  height:400px;
+  background-color: rgb(10, 148, 58);
+  display: none;
+  position: absolute;
+  right:2%;
+  transition:5s;
+}
+.box-holder{
+  padding-top:1%;
+  padding-left:2%;
+  padding: 20px;
+  
+}
+
+
+.main-btn {
+  background-color: blue;
+  padding: 4px 8px;
+  color: white;
+  margin-left:40%;
+ margin-top: 500px;
+}
+.main-btn:hover{
+  background-color: rgb(236, 63, 196);
+}
